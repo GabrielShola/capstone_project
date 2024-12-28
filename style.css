@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+
+nav{
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border-style: groove; */
+    height: 30px;
+    /* padding: 5px; */
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+   
+    
+   
+   
+   
+
+    
+
+}
+nav .task ul li
+{
+   
+   display: inline;
+   padding: 15px;
+   font-size: 20px;
+
+  
+   
+}
+
+nav h2{
+    font-size: 25px;
+}
+nav:hover
+{
+    background-color: red;
+    color: white;
+}
+
+nav .task ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover
+{
+    color: green;
+
+}
+
+/* section2 */
+.partB
+{
+    background-color: rgb(209, 207, 207);
+    /* height: 1200px; */
+    
+    
+
+    
+    
+}
+
+.partB_1{
+    min-height: 500px;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    
+    
+
+}
+.partB_1 form span{
+    color: red;
+    text-align: center;
+    margin: 3px;
+}
+.partB_1 label, input, h3, textarea, select {
+    
+    margin: 10px;
+    width: 480px;
+    height: 30px;
+   
+    
+    
+}
+
+.partB_1 label{
+    font-weight: bold;
+}
+.partB_1 textarea{
+    height: 80px;
+}
+
+.partB_1 button{
+    padding: 12px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    border-style: none;
+    width: 100px;
+}
+.partB_1 button:hover
+{
+    color: yellow;
+    background-color: red;
+}
+.taskdisplay
+{
+    
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+    height: 150px;
+    /* margin: 50px; */
+    /* justify-content: right; */
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+.taskdisplay .mbutton{
+    
+    /* background-color: yellow; */
+    width: 1000px;
+    margin-right: 50px;
+    padding: 10px;
+   
+    
+}
+
+.taskdisplay .mbutton .button1{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    border-style: none;
+    width: 80px;
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.taskdisplay .mbutton .button2:hover{
+    background-color: black;
+    color: white;
+
+}
+.taskdisplay .mbutton .button1.button1:hover{
+    background-color: black;
+    color: white;
+
+}
+.taskdisplay .mbutton .button2{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border-style: none;
+    width: 80px;
+    float: right;
+    cursor: pointer;
+
+
+}
+.filter
+
+{
+    
+    background-color: rgb(247, 248, 246);
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    /* margin-bottom: 30px; */
+    
+
+   
+   
+    
+}
+.filter label{
+    font-weight: bold;
+   
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    /* color: white; */
+    padding: 20px;
+    margin-top: 20px;
+   
+   
+}
+footer span{
+    color: yellow;
+    
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <nav>
+        <h2>TASK MANAGER</h2>
+        <div class="task">
+            <ul>
+                <li><a href="#task">Task</a></li>
+                <li><a href="#addtask">Add Task</a></li>
+                <li><a href="#filter">Filters</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <div class="partB">
+        <div class="partB_1" > 
+            
+            <form action="welcome.html" id="form">
+                <h3>CREATE A NEW TASK</h3>
+                <label for="">Title</label><br>
+                <input type="text" placeholder="Task Title" id="title"><br>
+                <span id="title_error"></span><br><br>
+                <label for="" >Description</label><br>
+                <!-- <input type="text" placeholder="Task Title" id="description"><br> -->
+                <textarea name="" id="description" type="text"></textarea><br>
+                <span id="description_error"></span><br><br>
+                <label for="">Deadline</label><br>
+                <input type="date" name="" id="date" ><br>
+                <span id="deadline_error"></span><br><br>
+                <label for="">Priority</label><br>
+                <select name="" id="priority" >
+                <option value="">None</option>
+                <option value="Very low">Very Low</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Very High">Very High</option>
+                </select><br>
+                <span id="priority_error"></span><br>
+                <button type="submit">Add task</button>
+            </form>
+            
+       
+        </div>
+        <h3 style="margin-top: 50px; margin-left: 50px;">Your Tasks</h3>
+        <div class="taskdisplay">
+            <div id="listtask"></div><br><br>
+            <!-- <div id="descriptionlist" ></div>
+            <div id="deadlinelist" ></div>
+            <div id="prioritylist" ></div> -->
+            
+             <!-- <div>
+                <h3>Example Task </h3>
+                <p>This is an example task Description</p>
+                <p>Deadline 2024-12-31</p>
+                <p>Priority</p>
+
+            </div> -->
+            <!-- <div class="mbutton">
+                <button class="button1">Edit</button>
+                <button class="button2">Delete</button>
+        
+            </div> -->
+        </div>
+        
+        
+           
+    </div>
+    <div class="filter" id="filter">
+        <h3>Filter Tasks</h3>
+        <label for="">Priority</label> <br>
+        <select name="" id="">
+            <option value="">Very low</option>
+            <option value="">Low</option>
+            <option value="">Medium</option>
+            <option value="">High</option>
+            <option value="">Very High</option>
+        </select><br>
+        <label for="">Due Date</label>
+        <input type="date" name="" id="">
+        
+        
+    </div>
+    <footer>
+        <p>&copy 2024 Task Manager by <span>GASTECH</span></p>
+        <p>All rights reserved</p>
+    </footer>
+
+
+    
+
+    
+    
+        
+   
+<script src="./main3.js"></script>
+</body>
+</html>
